@@ -51,8 +51,7 @@ public class Fight {
         System.out.println("You have cast the " + playerSpell.getItemName() + " spell, dealing " + damage + " damage to the " + monster.getName() + "!");
         monster.reduceHealth(damage);
 
-        //System.out.println("????? ?? ?=??O)) ((03?=? ?? °¬° ??");
-        System.out.println("/(°^°)/ --=.·`¸.·*´¨> <¨´*+.`·.=-- \\(OwO)\\"); //DrJava compatible
+        System.out.println("/(-.-)/ --=.â˜†`â˜†.â˜†*â˜†> <â˜…*+.`â˜….=-- \\(OwO)\\");
 
         int attack =IR4.getRandomNumber(MIN_ATTK,MAX_ATTK);
 
