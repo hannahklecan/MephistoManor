@@ -89,6 +89,8 @@ public class GameCommandControl {
 
     public static String executeCommand(String playerEntry, Player player, GameMap map){
 
+        System.out.println("***************************************************************");
+
         if(playerEntry.equalsIgnoreCase(actions[0])){
             //checkRoom
             checkRoom(map, player);
@@ -176,6 +178,7 @@ public class GameCommandControl {
      */
     public static void displayCommands(){
 
+        System.out.println("***************************************************************");
         System.out.println("\nThese are the commands available: ");
         for(int i = 0; i < actions.length; i++){
             System.out.println("- " + actions[i]);
@@ -267,8 +270,5 @@ public class GameCommandControl {
         }
 
     }
-
-
-
 
 }
